@@ -1,0 +1,45 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+  h1 {
+    text-align: center;
+    margin-top: 25px;
+    color: red;
+
+}
+
+
+
+.user1, .user2, .mail, .tel, .date, .animal {
+margin-left: 20px;
+
+}
+
+.user2{
+margin-top: 20px;
+}
+
+.mail{
+margin-top: 20px;
+}
+
+.tel{
+margin-top: 20px;
+}
+
+.date{
+margin-top: 20px;
+}
+
+.animal{
+margin-top: 20px;
+}
+
+
+.user1::before {
+  content:url(images/user.png);
+  
+}

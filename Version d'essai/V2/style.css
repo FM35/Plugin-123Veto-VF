@@ -1,0 +1,160 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+  h1 {
+    text-align: center;
+    margin-top: 25px;
+    
+
+}
+
+input
+{
+  height: 30px;
+  width: 300px;
+  font-size: 1em;
+  position: absolute;
+  top: 0px;
+  
+}
+
+
+.user1::before {
+ background-image:url(image/User.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+
+}
+
+.user2::before {
+  background-image:url(image/User.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+.mail::before {
+  background-image:url(image/E-mail.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+.tel::before {
+  background-image:url(image/Telephone.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+
+.date::before {
+ background-image:url(image/Agenda.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+.animal::before {
+  background-image:url(image/Animal.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+.aniname::before {
+  background-image:url(image/aniname.png);
+ 	background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    background-repeat: no-repeat;
+
+}
+
+.user1, .user2, .mail, .tel, .date, .animal, .aniname {
+margin-left: 50px;
+height: 30px;
+position:relative;
+
+
+
+
+}
+
+.user1{
+margin-bottom: 20px;
+}
+
+.user2{
+margin-bottom: 20px;
+}
+
+
+.mail{
+margin-bottom: 20px;
+}
+
+.tel{
+margin-bottom: 20px;
+}
+
+.date{
+margin-bottom: 20px;
+}
+
+.animal{
+margin-bottom: 20px;
+}
+
+.aniname{
+margin-bottom: 20px;
+}
+
+
+p {
+	margin-left: 30px;
+}
+
+.motif {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.message {
+	margin-left: 20px;
+}
+
+.bouton {
+	margin-top: 20px;
+	margin-left: 20px;
+}
